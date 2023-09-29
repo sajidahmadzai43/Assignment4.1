@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Animation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<audio id="startAudio" src="start.wav"></audio>
+<audio id="stopAudio" src="stop.wav"></audio>
+
+<header>
+    <button id="startBtn" onclick="start()">Start</button>
+    <button id="stopBtn" onclick="stop()" disabled>Stop</button>    
+</header>
+
+<div id="animation-container">
+    <img id="bird" src="bird.png" alt="Bird">
+    <img id="plane" src="plane.png" alt="Plane">
+    <img id="meme" src="meme.jpg" alt="Meme">
+</div>
+
+<footer>
+    Meme Animation | Created by Sajid
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
